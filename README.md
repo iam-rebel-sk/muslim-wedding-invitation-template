@@ -14,8 +14,8 @@ A responsive, static wedding invitation website built with plain HTML, CSS, and 
 ## Project files
 
 - `index.html` — page, styles, invitation configuration, and behavior
-- `invitation-cover.svg` — generic cover artwork
-- `invitation-details.svg` — generic details-page artwork
+- `invitation-cover.jpg` — cover design artwork
+- `invitation-details.png` — details-page design artwork
 
 Keep the artwork beside `index.html`, or update its paths in the HTML if you move it. No audio file is included; add your own audio file if you enable music.
 
@@ -33,7 +33,7 @@ Keep the artwork beside `index.html`, or update its paths in the HTML if you mov
    - `page`: the invitation's headings, labels, and closing text
 4. Use dates in `YYYY-MM-DD` format and times in 24-hour `HH:MM` format. Include the country code in the WhatsApp phone number, without a `+`.
 5. Replace the map coordinates with the venue's latitude and longitude, separated by a comma.
-6. To use different artwork, replace the SVG files while keeping their filenames, or update the paths in `index.html`. To use music, add an audio file beside `index.html` and set `music.enabled` to `true`.
+6. To use different artwork, replace the image files while keeping their filenames, or update the paths in `index.html`. To use music, add an audio file beside `index.html` and set `music.enabled` to `true`.
 7. Review all text, links, media, and location details before sharing or publishing.
 
 ## Preview locally on Windows
@@ -68,7 +68,7 @@ git pull
 Edit `invitationConfig` and replace the artwork or music as needed. Preview the changes locally, then save them back to your fork or repository:
 
 ```powershell
-git add index.html README.md invitation-cover.svg invitation-details.svg
+git add index.html README.md invitation-cover.jpg invitation-details.png LICENSE
 git commit -m "Customize wedding invitation"
 git push
 ```
@@ -88,6 +88,6 @@ The map tiles and web fonts load from external services, so visitors need an int
 
 ## Reuse and privacy
 
-This template uses generic placeholder information and artwork. Replace the sample values and review all media before publishing a personalized invitation; names, phone numbers, addresses, and precise coordinates may be personal information.
+This template uses placeholder invitation information and includes the original supplied artwork. Replace the sample values and review all media before publishing a personalized invitation; names, phone numbers, addresses, and precise coordinates may be personal information.
 
-This repository currently has no license. Public visibility alone does not grant permission to reuse its code or media.
+The MIT License in `LICENSE` covers the source code only. The invitation artwork is not covered by that license; obtain separate permission from its rights holder before reusing or redistributing it.
